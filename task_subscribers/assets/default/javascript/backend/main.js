@@ -24,5 +24,3 @@ App.Inspector.Properties.TaskSubscribers = function (object, client_interface) {
         subs_wrapper.append(subs_link);
     }
 };
-
-console.log('asdf');
