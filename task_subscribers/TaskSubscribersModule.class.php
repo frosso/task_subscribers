@@ -27,7 +27,6 @@ class TaskSubscribersModule extends AngieModule {
     }
 
     function defineHandlers() {
-        Logger::log('registrato');
         EventsManager::listen( 'on_object_inspector', 'on_object_inspector' );
     }
 }
